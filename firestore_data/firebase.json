@@ -1,0 +1,23 @@
+{
+    "__collections__": {
+      "users": {
+        "user1": {
+          "email": "usuario1@example.com",
+          "name": "Usuario Ejemplo",
+          "createdAt": {"__datatype__": "timestamp", "value": {"_seconds": 1682444800, "_nanoseconds": 0}},
+          "__collections__": {
+            "meals": {
+              "meal1": {
+                "name": "Desayuno",
+                "calories": 450,
+                "proteins": 20,
+                "carbs": 40,
+                "fats": 15,
+                "date": {"__datatype__": "timestamp", "value": {"_seconds": 1682444800, "_nanoseconds": 0}}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
