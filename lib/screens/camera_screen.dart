@@ -142,7 +142,7 @@ class _CameraScreenState extends State<CameraScreen>
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          const Icon(Icons.camera_alt_off, size: 80, color: Colors.grey),
+          const Icon(Icons.no_photography, size: 80, color: Colors.grey),
           const SizedBox(height: 16),
           const Text(
             'Se requiere permiso para acceder a la cámara',
